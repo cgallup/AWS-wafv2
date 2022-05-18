@@ -5,8 +5,8 @@
 
 terraform {
   backend "s3" {
-    bucket  = "symbridge-tfstate"
-    key     = "symbridge-wafv2" #key will auto build in the tfstate, no need to create it.
+#    bucket  = "tfstate"
+#    key     = "wafv2" #key will auto build in the tfstate, no need to create it.
     region  = "us-east-1"
     encrypt = true
   }

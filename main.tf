@@ -1,5 +1,4 @@
 # Chris Gallup CISSP, MS-IAC
-# Symbridge IT-SEC
 # Web Application Firewall AWS WAFv2
 # hashicorp/aws v4.12.1
 # Terraform v1.1.9 on darwin arm64

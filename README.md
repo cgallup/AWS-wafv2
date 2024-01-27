@@ -12,7 +12,7 @@ The below rules are in sequential order by best practices priority.
 6. AWS-AWSManagedRulesAnonymousIpList           (50 rules)
 7. AWS-AWSManagedRulesBotControlRuleSet         (50 rules)
 
-**Symbridge custom rules:**
+**Custom rules:**
 1. OFAC, this rule is a country wide block of all countries on the OFAC list which is maintained by compliance.
 2. Blocking advanced persistent threats (APT). This rule blocks APT's found  in the SIEM that are maliciously attacking Symbridge web servers.
 3. Whitelist-Backend, this rule is the Whitelist is to block non-administrators from the /Backend/ directory.

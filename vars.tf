@@ -183,7 +183,7 @@ variable "OFAC_rules" {
   description = "OFAC WAF rules."
   default = [
     {
-      name            = "Symrbidge-OFAC",
+      name            = "OFAC_rules",
       priority        = 80
       action          = "block"
       override_action = "none"
